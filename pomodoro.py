@@ -5,7 +5,6 @@ from subprocess import Popen, PIPE
 from Tkinter import Tk
 
 eg = easygui
-sys.path.append('/usr/local/lib/python2.7/site-packages')
 from pync import Notifier
 
 
@@ -41,6 +40,6 @@ def pomodoro():
 def main():
     pomodoro()
 
-if name == '__main__':
+if __name__ == '__main__':
     main()
 
