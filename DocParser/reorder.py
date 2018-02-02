@@ -3,7 +3,6 @@ import docx
 from docx.shared import Pt
 import copy
 
-
 reg = re.compile(r'[a-zA-Z]+')
 
 #Most of these methods will have to be customized to new documents
@@ -112,9 +111,9 @@ def reOrder(docname):
 
     new.save('testing.docx')
 
+
                             
                             
-doc.save('vanessa2.docx')
 
 
 
